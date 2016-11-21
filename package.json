@@ -1,0 +1,40 @@
+{
+  "name": "hubot-bugzilla-short",
+  "description": "A hubot script to return short links to bugzilla bugs when mentioned",
+  "version": "0.0.0",
+  "author": "hhorsman <kariudo@gmail.com>",
+  "license": "MIT",
+
+  "keywords": ["hubot","hubot-scripts","bugzilla"],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kariudo/hubot-bugzilla-short.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/kariudo/hubot-bugzilla-short/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt":"*",
+    "grunt-mocha-test": "*",
+    "grunt-release": "*",
+    "matchdep": "*",
+    "grunt-contrib-watch": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
