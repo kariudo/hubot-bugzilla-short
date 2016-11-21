@@ -19,6 +19,6 @@ Then add **hubot-bugzilla-short** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> did you see bug 1234
+hubot>> :bug: http://bit.ly/xxxxxxxx
 ```
